@@ -47,7 +47,7 @@ ChromaDB, and Ollama LLMs. Get instant AI-powered answers with source citations,
    ollama pull llama3.2
    
    # Install embedding model
-   ollama pull nomic-embed-text
+   ollama pull mxbai-embed-large
    ```
 
 4. **Configure environment**
@@ -84,7 +84,7 @@ DOCS_DIRECTORY_PATH=/path/to/your/docs
 
 # Optional: Customize models and paths
 CHROMA_PATH=./chroma_db
-EMBEDDING_MODEL=nomic-embed-text
+EMBEDDING_MODEL=mxbai-embed-large
 LLM_MODEL=llama3.2
 OLLAMA_BASE_URL=http://localhost:11434
 ```
